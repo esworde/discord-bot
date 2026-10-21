@@ -65,6 +65,9 @@ def post(msg):
 
 
 def main():
+    if os.environ.get("GITHUB_ACTIONS") and not WEBHOOK:
+        print("::warning::DISCORD_WEBHOOK secret not set, skipping (otherwise updates would be marked seen but never posted)")
+        return
     seen = json.loads(SEEN.read_text()) if SEEN.exists() else {}
     sources = {name: lambda base=base: statuspage(base) for name, base in PAGES.items()}
     sources |= {"OpenRouter": openrouter, "Railway": railway}
