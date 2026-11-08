@@ -1,9 +1,5 @@
 {
  "Anthropic": [
-  "71wxpw067nx2",
-  "7l6pk93k95q1",
-  "yszb0sst2qns",
-  "zqtffxhkcfw0",
   "nk86fbj1n63l",
   "dz68rm9pqxk4",
   "zqfv1lpqmdqw",
@@ -160,7 +156,10 @@
   "gxyb09f375d4",
   "cpvjb6396q8w",
   "r1klwys81rm2",
-  "ltl2sgp458vx"
+  "ltl2sgp458vx",
+  "4hn66dgxhg89",
+  "td9d4qtrckky",
+  "4p66mk6fmt53"
  ],
  "OpenAI": [
   "01M4T4ZCM5787AJ5YDEGTB37CH",
@@ -633,6 +632,7 @@
   "93b34e7c-fcca-4a5c-ab56-e643e11bd238",
   "aff274e5-ee0b-4649-98a6-bf4752650661",
   "904fd3c2-8aac-4636-b2c5-cb36eca3fd6e",
-  "de61885b-a44a-4988-bbda-1a6d9a37bcc3"
+  "de61885b-a44a-4988-bbda-1a6d9a37bcc3",
+  "a6cb8c4d-3f21-4571-9868-51c84b44e233"
  ]
 }
